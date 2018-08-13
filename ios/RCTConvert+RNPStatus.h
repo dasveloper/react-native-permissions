@@ -25,8 +25,7 @@ typedef NS_ENUM(NSInteger, RNPType) {
     RNPTypeCamera,
     RNPTypeMicrophone,
     RNPTypePhoto,
-    RNPTypeNotification,
-    RNPTypeMediaLibrary
+    RNPTypeNotification
   };
 
 @interface RCTConvert (RNPStatus)
